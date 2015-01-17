@@ -1,0 +1,2 @@
+defmodule Primes do
+end
