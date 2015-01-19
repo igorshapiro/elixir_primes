@@ -5,7 +5,8 @@ For Mac OS X:
 
 ```sh
   brew install elixir
-  cd <dir>
+  git clone https://github.com/igorshapiro/elixir_primes.git
+  cd elixir_primes
   mix do deps.get, deps.compile
 ```
 
