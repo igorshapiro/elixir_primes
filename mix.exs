@@ -25,6 +25,9 @@ defmodule Primes.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [
+      {:exprintf, github: "parroty/exprintf"},
+      
+    ]
   end
 end

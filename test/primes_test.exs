@@ -1,7 +1,7 @@
 defmodule PrimesTest do
   use ExUnit.Case
 
-  test "the truth" do
-    assert 1 + 1 == 2
-  end
+  alias Primes.Server
+
+  doctest Primes.Server
 end
